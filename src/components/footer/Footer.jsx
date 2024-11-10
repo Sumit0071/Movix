@@ -22,26 +22,30 @@ export const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Enjoy a world of movies and shows at your fingertips. From classics to the latest hits, stream anytime, anywhere, on any device. Personalized recommendations and 24/7 support ensure an effortless viewing experience tailored just for you.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
                         <FaFacebookF />
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                        <a href="https://www.instagram.com/sonic_blizard/" target="_blank" >
+                            <FaInstagram />
+                        </a>
+
                     </span>
                     <span className="icon">
                         <FaTwitter />
                     </span>
                     <span className="icon">
-                        <FaLinkedin />
+                        <a href="https://www.linkedin.com/in/sad2004/" target="_blank">
+                            <FaLinkedin />
+                        </a>
                     </span>
+                </div>
+                <div style={{ marginTop: "5px", fontSize: "12px", color: "#666" }}>
+                    <img href="assets/logo.png" />
+                    © Sumit 2024 All Rights Reserved
                 </div>
             </ContentWrapper>
         </footer>
